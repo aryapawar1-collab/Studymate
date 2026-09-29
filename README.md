@@ -1,4 +1,4 @@
-# StudyMate — CCA 2 Study Material
+# StudyMate — Study Material
 
 A simple static website for organizing CCA 2 revision material.
 
