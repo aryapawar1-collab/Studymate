@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyMate | CCA 2 Study Material</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">📚 StudyMate</div>
+      <a href="#subjects">Subjects</a>
+      <a href="#materials">Materials</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="hero-content">
+      <p class="tag">CCA 2 • STUDY HUB</p>
+      <h1>Study smarter with <span>StudyMate</span>.</h1>
+      <p>Simple, organized study material for your CCA 2 preparation.</p>
+      <a class="button" href="#subjects">Explore Materials</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats">
+      <div><strong>5</strong><span>Subjects</span></div>
+      <div><strong>25+</strong><span>Topics</span></div>
+      <div><strong>100%</strong><span>Student Focused</span></div>
+    </section>
+
+    <section id="subjects" class="section">
+      <div class="section-heading">
+        <p class="tag">LEARN</p>
+        <h2>CCA 2 Subjects</h2>
+        <p>Choose a subject and revise the important concepts.</p>
+      </div>
+
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Search subjects or topics...">
+      </div>
+
+      <div id="subjectGrid" class="grid">
+        <article class="card" data-search="java object oriented programming classes inheritance polymorphism exceptions">
+          <div class="icon">☕</div>
+          <h3>Java Programming</h3>
+          <p>OOP concepts, classes, inheritance, polymorphism and exception handling.</p>
+          <ul>
+            <li>Classes & Objects</li><li>Inheritance</li><li>Polymorphism</li><li>Exceptions</li>
+          </ul>
+        </article>
+
+        <article class="card" data-search="dbms database sql normalization keys transactions">
+          <div class="icon">🗄️</div>
+          <h3>DBMS</h3>
+          <p>Core database concepts and SQL revision for CCA 2.</p>
+          <ul>
+            <li>ER Model</li><li>Keys</li><li>Normalization</li><li>SQL</li>
+          </ul>
+        </article>
+
+        <article class="card" data-search="operating systems process scheduling memory deadlock">
+          <div class="icon">💻</div>
+          <h3>Operating Systems</h3>
+          <p>Important OS concepts explained in quick-revision format.</p>
+          <ul>
+            <li>Processes</li><li>Scheduling</li><li>Memory</li><li>Deadlocks</li>
+          </ul>
+        </article>
+
+        <article class="card" data-search="computer networks osi tcp ip routing protocols">
+          <div class="icon">🌐</div>
+          <h3>Computer Networks</h3>
+          <p>Network layers, protocols and communication fundamentals.</p>
+          <ul>
+            <li>OSI Model</li><li>TCP/IP</li><li>Routing</li><li>Protocols</li>
+          </ul>
+        </article>
+
+        <article class="card" data-search="data structures arrays linked lists stacks queues trees">
+          <div class="icon">🧩</div>
+          <h3>Data Structures</h3>
+          <p>Quick notes for common data structures and their operations.</p>
+          <ul>
+            <li>Arrays</li><li>Linked Lists</li><li>Stacks & Queues</li><li>Trees</li>
+          </ul>
+        </article>
+      </div>
+      <p id="noResults" class="no-results hidden">No matching material found.</p>
+    </section>
+
+    <section id="materials" class="section alt">
+      <div class="section-heading">
+        <p class="tag">QUICK REVISION</p>
+        <h2>Study Tips</h2>
+      </div>
+      <div class="tips">
+        <div class="tip"><span>01</span><h3>Start with definitions</h3><p>Learn the key terms before moving to long answers.</p></div>
+        <div class="tip"><span>02</span><h3>Practice examples</h3><p>Write small programs, queries and diagrams instead of only reading.</p></div>
+        <div class="tip"><span>03</span><h3>Revise actively</h3><p>Use short notes and test yourself without looking at the answer.</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <p class="tag">ABOUT STUDYMATE</p>
+        <h2>Your simple CCA 2 revision companion.</h2>
+      </div>
+      <p>This student project organizes important CCA 2 study areas in one clean place. The content can be expanded later with PDFs, videos, question banks and subject-wise notes.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 StudyMate • CCA 2 Study Material</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
